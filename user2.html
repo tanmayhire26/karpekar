@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>User two tracker</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="/user2.css" />
+	</head>
+	<body>
+		<div container="main-heading">
+			<h2 class="display-1">Revision Tracker</h2>
+		</div>
+		<div id="main-container">
+			<div id="polity">
+				<div class="vishay" onclick="showTasks()">Polity</div>
+				<div class="topic" id="pcontainer"></div>
+			</div>
+			<div class="vishay" id="history">
+				History
+				<div class="topic" id="hcontainer"></div>
+			</div>
+			<div class="vishay" id="geo">
+				Geography
+				<div class="topic" id="gcontainer"></div>
+			</div>
+			<div class="vishay" id="science">
+				Science and Technology
+				<div class="topic" id="scontainer"></div>
+			</div>
+			<div class="vishay" id="env">
+				Environment
+				<div class="topic" id="econtainer"></div>
+			</div>
+		</div>
+		<div id="status"></div>
+		<button id="statusButton" class="btn btn-primary">Get Status</button>
+		<button id="know" class="btn btn-warning" onclick="showKnowMore()">
+			Know More
+		</button>
+		<div class="lead" id="knowMore" hidden></div>
+		<script src="/user2.js"></script>
+	</body>
+</html>

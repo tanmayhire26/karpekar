@@ -1,0 +1,22 @@
+.topic div{
+    box-shadow: 0px 0px 4px 0px;
+    margin: 10px;
+    width : 90%;
+    padding: 5px;
+}
+span{
+    width:30px;
+    margin: 5px;
+    box-shadow: 0px 0px 3px 0px red;
+}
+.done{
+    background-color: greenyellow;
+}
+#knowMore{
+    width : 40%;
+    box-shadow: 0px 0px 5px 0px yellow;
+    margin-left : 500px;
+    height : 450px;
+    position:relative;
+    bottom: 150px;
+}
